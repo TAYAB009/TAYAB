@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+<!-- 
+
+    Next Time Try black theme
+
+ -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -99,7 +106,7 @@
         }
 
         .illustration img {
-            max-width: 80%;
+            max-width: 100%;
             height: auto;
         }
 
@@ -114,58 +121,13 @@
         }
 
         .section ul {
-            list-style: disc;
-            /* Adds bullet points */
-            padding-left: 20px;
-            /* Indentation for bullets */
-            text-align: left;
+            list-style: none;
+            padding: 0;
         }
 
         .section ul li {
             font-size: 18px;
             margin: 10px 0;
-        }
-
-        .projects-container {
-            display: flex;
-            align-items: flex-start;
-            justify-content: space-between;
-        }
-
-        .projects-list {
-            max-width: 50%;
-        }
-
-        .projects-image {
-            max-width: 45%;
-            text-align: right;
-        }
-
-        .projects-image img {
-            max-width: 60%;
-            height: auto;
-        }
-
-        .contact-info {
-            display: flex;
-            align-items: flex-start;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            max-width: 120%;
-            margin: auto;
-        }
-
-        .contact-info p {
-            flex: 1;
-            margin-right: 10px;
-            text-align: left;
-        }
-
-        .contact-image {
-            max-width: 30%;
-            display: block;
-            margin: auto;
-            margin-top: 10px;
         }
 
         footer {
@@ -185,7 +147,7 @@
                 <ul>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#experience">Work Experiences</a></li>
-                    <!-- <li><a href="#opensource">Open Source</a></li> -->
+                    <li><a href="#opensource">Open Source</a></li>
                     <li><a href="#achievements">Achievements</a></li>
                     <li><a href="#blogs">Blogs</a></li>
                     <li><a href="#talks">Talks</a></li>
@@ -200,10 +162,11 @@
             <div class="intro-text">
                 <h1>Hi all, I'm Tayab 👋</h1>
                 <p>I am a passionate Flutter & Machine Learning Engineer 🚀 I develop Flutter Apps enriched with AI
-                    capabilities. I am certified Mobile Application developer with 3 years of Freelance experience. I am
-                    also specialized in TensorFlow and Machine Learning Model Deployment. My
-                    expertise lies in Firebase, API integration, and Machine Learning Model Deployment to Mobile, Web,
-                    Server, and Cloud.
+                    capabilites. I am certified Mobile Application developer with 3 years of Freelance experience. I am
+                    also specialized in TensorFlow and Machine Learning Deployment. My expertise lies in Firebase, API
+                    integration,
+                    and Machine Learning Model Deployment to Mobile, Web, Server and Cloud.
+
                 </p>
                 <div class="cta-buttons">
                     <a href="#contact">Contact Me</a>
@@ -211,7 +174,7 @@
                 </div>
                 <br>
                 <div class="social-icons">
-                    <a href="https://www.fiverr.com/tayab009/integrate-machine-learning-model-in-flutter-app-f1e1"
+                    <a href="https://www.fiverr.com/tayab009/integrate-machine-learning-model-in-flutter-app-f1e1" ,
                         target="_blank">Fiverr</a>
                     <a href="https://www.linkedin.com/in/tayab-farooq-0118411bb/" target="_blank">LinkedIn</a>
                     <a href="https://github.com/TAYAB009" target="_blank">GitHub</a>
@@ -223,79 +186,51 @@
                 <img src="./assets/developer.png" alt="Illustration">
             </div>
         </section>
-
         <section id="skills" class="intro-text">
             <h2>Skills</h2>
             <ul>
                 <li>Mobile Application Development</li>
-                <li>Firebase, APIs and Local Databases in App</li>
-                <li>Provider for State Management</li>
                 <li>Machine Learning Models Training</li>
-                <li>YOLO-V8, TensorFlow, and Statistical Models</li>
-                <li>Machine Learning Models Integration</li>
+                <li>Machine Learning MOdels integration</li>
                 <li>Basic API Development with Flask</li>
-                <li>Data Analytics such as cleaning, scaling, normalization, best model selection</li>
+                <li>Data Analytics</li>
                 <li>Strong Communication and Presentation Skills</li>
-                <li>Googling and Prompt Engineering</li>
             </ul>
         </section>
         <div class="section">
             <img src="./assets/flutter.png" alt="Illustration">
         </div>
 
+
         <section id="experience" class="section">
             <h2>Work Experiences</h2>
-            <p>Since 2021, I have been developing Flutter applications, creating and publishing several mobile and web
-                applications to the Play Store. One of my projects, "Mother Nature," is available for download there.
-                I've also developed applications that integrate various APIs, including ChatGPT, Firebase for chat
-                features, and custom WebSockets for real-time streaming applications. Additionally, I created a
-                Road-Defect-Detection app that identifies road defects in real-time using a drone camera.
+            <p>I am developing Flutter applications since 2021, I developed several Mobile and Web Applications and
+                published to playstore. I developed an application with name Mother Nature which can be dowloaded from
+                playstore. I developed applications with different APIs integrated including chatGPT APIs, chat feature
+                with Firebase, custom Web-Socket for streaming for real-time applications. Besides this I have developed
+                Road-Defect-Detection app that can detect defects in road in real-time from Drone camera.
                 <br>
-                I teach Flutter at UET Peshawar through the PMYDP program and also teach online with UNDP. Since 2021, I
-                have been working as a freelance Flutter developer.
-                <br>
+                (The section is incomplete, further information will be added soon...)
+
 
             </p>
+            <!-- <ul>
+                <li>Mobile Application Development</li>
+                <li>Machine Learning Models Training</li>
+                <li>Machine Learning MOdels integration</li>
+                <li>Basic API Development with Flask</li>
+                <li>Data Analytics</li>
+                <li>Strong Communication and Presentation Skills</li>
+            </ul> -->
         </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="section">
-            <h2>Projects</h2>
-            <div class="projects-container">
-                <ul class="projects-list">
-                    <li>Mother Nature App (Flutter, Firebase, APIs)</li>
-                    <li>Road Defect Detection App using Drone (Flutter, Firebase and ML)</li>
-                    <li>Object Detection For Visually Impaired People (Flutter, Firebase and ML)</li>
-                    <li>Pose Estimation & Joints Angle Calculation (Flutter and ML)</li>
-                    <li>Diabetes Detection (Flutter, Firebase and ML)</li>
-                    <li>Rain Prediction (ML)</li>
-                    <li>Abnormal Heart Detection</li>
-                    <li>Optimal Solar Panel Installation Site Detection</li>
-                    <li>Student Course Recommendation System(Flutter and ML)</li>
-                    <li>Fine Tunning GPT2 on Custom Data (LLM)</li>
-                    <li>Sales Forecasting and Inventory Management(ML)</li>
-
-                    <!-- Add more projects as needed -->
-                </ul>
-                <div class="projects-image">
-                    <img src="./assets/projects.png" alt="Projects">
-                </div>
-            </div>
-        </section>
+        <!-- Add more sections as needed -->
 
         <section id="contact" class="section">
-            <h1>Contact</h1>
-            <div class="contact-info">
-                <div>
-                    <p style="color: blue;">Email: <a
-                            href="mailto:tayabfarooq009@gmail.com">tayabfarooq009@gmail.com</a></p>
-                    <p style="color: blue;">Phone: +923409182429</p>
-                    <p style="color: blue;">LinkedIn: <a href="https://www.linkedin.com/in/tayab-farooq-0118411bb/"
-                            target="_blank">https://www.linkedin.com/in/tayab-farooq-0118411bb/</a></p>
-                    <p style="color: blue;">Address: Peshawar, Pakistan</p>
-                </div>
-                <img class="contact-image" src="./assets/contact.png" alt="Contact Image">
-            </div>
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:example@example.com">tayabfarooq009@gmail.com</a></p>
+            <p>Phone: +923161960837</p>
+            <p>Address: Peshawar, Pakistan</p>
         </section>
     </div>
 
